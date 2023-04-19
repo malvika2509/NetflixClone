@@ -1,0 +1,45 @@
+.footer {
+  border-top: 6px solid #333;
+  color: #777;
+  padding: 30px;
+  color: gray;
+}
+.footer h2 {
+  font-size: 50px;
+  font-weight: 300;
+  /* margin: 30px; */
+}
+.footer a {
+  font-weight: 100;
+  display: block;
+  color: white;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.footer .row {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+}
+nav button,
+nav select {
+  border: 0;
+  outline: 0;
+  background: red;
+  font-weight: bolder;
+  color: white;
+  padding: 8px 25px;
+  font-size: 18px;
+  border-radius: 4px;
+  margin-left: 40px;
+  cursor: pointer;
+}
+.lang {
+  background: none;
+  border: 1px solid white;
+}
+.copyright {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 15px;
+}
